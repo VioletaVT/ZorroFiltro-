@@ -1,0 +1,23 @@
+body{
+    background-size: cover;
+}
+
+h3{
+     font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: rgb(255, 208, 0);
+}
+
+canvas{
+    animation-name: transition;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes transition{
+    50%{background-color: palevioletred;}
+    100%{background-color: rgb(26, 159, 242);}
+    
+}
